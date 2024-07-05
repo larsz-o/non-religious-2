@@ -16,7 +16,7 @@ const DecisionLayoutA = (props) => {
 
   useEffect(() => {
   
-    startDecision(true)
+   
   },[])
  
 
@@ -106,7 +106,7 @@ const DecisionLayoutA = (props) => {
           </div>
           <div className="flex-box flex-center nav-buttons">
 
-            <button className="button" onClick={() => startDecision()}>
+            <button className="button" onClick={() => startDecision(true)}>
               Start
             </button>
           </div>
@@ -186,7 +186,7 @@ const DecisionLayoutA = (props) => {
         )}
       </div>
 
-      {!decisionStarted && (
+      {!decisionStarted && decisionEnded && (
         <div>
         
           <div className="flex-box flex-center">
