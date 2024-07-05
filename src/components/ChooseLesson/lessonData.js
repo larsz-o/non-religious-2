@@ -13,7 +13,7 @@ const lessonData = {
           ],
           layoutNumber: 3,
           navigation: [
-            { available_scene: "2", current_scene: "1", text: "Continue" },
+            { available_scene: "2", current_scene: "1", previous_scene: null, text: "Continue" },
           ],
           scene_number: "1",
           sidebar: false,
@@ -32,7 +32,7 @@ const lessonData = {
           images: [],
           layoutNumber: 4,
           navigation: [
-            { available_scene: "3", current_scene: "2", text: "Continue" },
+            { available_scene: "3", current_scene: "2", previous_scene: "1",text: "Continue" },
           ],
           scene_number: "2",
           sidebar: true,
@@ -53,7 +53,7 @@ const lessonData = {
           images: [],
           layoutNumber: 4,
           navigation: [
-            { available_scene: "4", current_scene: "3", text: "Continue" },
+            { available_scene: "4", current_scene: "3", previous_scene: "2", text: "Continue" },
           ],
           scene_number: "3",
           sidebar: false,
@@ -68,7 +68,7 @@ const lessonData = {
           audio: [],
         },
         4: {
-          checkpoint: true,
+          checkpoint: false,
           last: false,
           checkpoints: [{
             alt: null,
@@ -84,7 +84,7 @@ const lessonData = {
           images: [],
           layoutNumber: 4,
           navigation: [
-            { available_scene: "5", current_scene: "4", text: "Continue" },
+            { available_scene: "5", current_scene: "4", previous_scene: "3",text: "Continue" },
           ],
           scene_number: "4",
           sidebar: false,
@@ -105,7 +105,7 @@ const lessonData = {
           images: [],
           layoutNumber: 4,
           navigation: [
-            { available_scene: "6", current_scene: "5", text: "Continue" },
+            { available_scene: "6", current_scene: "5", previous_scene: "4",text: "Continue" },
           ],
           scene_number: "5",
           sidebar: false,
@@ -126,7 +126,7 @@ const lessonData = {
           images: [ ],
           layoutNumber: 4,
           navigation: [
-            { available_scene: "6.1", current_scene: "6", text: "Continue" },
+            { available_scene: "6.1", current_scene: "6", previous_scene: "5",text: "Continue" },
           ],
           scene_number: "6",
           sidebar: false,
@@ -147,7 +147,7 @@ const lessonData = {
           images: [{alt:'Abe', image: 'https://chaplaincy-innovation-lab-lessons.s3.amazonaws.com/nonreligious/pexels-mikhail-nilov-6973110.jpg', order: 0}],
           layoutNumber: 1,
           navigation: [
-            { available_scene: "7", current_scene: "6.1", text: "Continue" },
+            { available_scene: "7", current_scene: "6.1", previous_scene: "6",text: "Continue" },
           ],
           scene_number: "6.1",
           sidebar: false,
@@ -162,7 +162,7 @@ const lessonData = {
           audio: [],
         },
         7: {
-          checkpoint: true,
+          checkpoint: false,
           last: false,
           checkpoints: [{
             alt: null,
@@ -178,7 +178,7 @@ const lessonData = {
           images: [],
           layoutNumber: 9,
           navigation: [
-            { available_scene: "8", current_scene: "7", text: "Continue" },
+            { available_scene: "8", current_scene: "7", previous_scene: "6.1",text: "Continue" },
           ],
           scene_number: "7",
           sidebar: false,
@@ -200,7 +200,7 @@ const lessonData = {
           images: [{alt:'James', image: 'https://chaplaincy-innovation-lab-lessons.s3.amazonaws.com/nonreligious/pexels-thomas-chauke-437438-6573803.jpg', order: 0}],
           layoutNumber: 1,
           navigation: [
-            { available_scene: "9", current_scene: "8", text: "Continue" },
+            { available_scene: "9", current_scene: "8", previous_scene: "7", text: "Continue" },
           ],
           scene_number: "8",
           sidebar: false,
@@ -215,7 +215,7 @@ const lessonData = {
           audio: [],
         },
         9: {
-          checkpoint: true,
+          checkpoint: false,
           last: false,
           checkpoints: [{
             alt: null,
@@ -229,9 +229,9 @@ const lessonData = {
             sidebar: false,
           }],
           images: [],
-          layoutNumber: 9,
+          layoutNumber: 7,
           navigation: [
-            { available_scene: "9.1", current_scene: "9", text: "Continue" },
+            { available_scene: "9.1", current_scene: "9", previous_scene: "8",text: "Continue" },
           ],
           scene_number: "9",
           sidebar: false,
@@ -252,7 +252,7 @@ const lessonData = {
           images: [{alt:'Luz', image: 'https://chaplaincy-innovation-lab-lessons.s3.amazonaws.com/nonreligious/Homeless_woman_in_Washington%2C_D.C..jpg', order: 0}],
           layoutNumber: 1,
           navigation: [
-            { available_scene: "10", current_scene: "9.1", text: "Continue" },
+            { available_scene: "10", current_scene: "9.1", previous_scene: "9",text: "Continue" },
           ],
           scene_number: "8",
           sidebar: false,
@@ -267,7 +267,7 @@ const lessonData = {
           audio: [],
         },
         10: {
-          checkpoint: true,
+          checkpoint: false,
           last: false,
           checkpoints: [{
             alt: null,
@@ -281,9 +281,9 @@ const lessonData = {
             sidebar: false,
           }],
           images: [],
-          layoutNumber: 9,
+          layoutNumber: 8,
           navigation: [
-            { available_scene: "19", current_scene: "10", text: "Continue" },
+            { available_scene: "19", current_scene: "10", previous_scene: "9.1",text: "Continue" },
           ],
           scene_number: "10",
           sidebar: false,
@@ -311,7 +311,7 @@ const lessonData = {
           sidebarVideos: [],
           sidebarText: [],
           text: [
-            `<p>You finished this lesson! In this lesson, you encountered three non-religious people who were struggling with a big challenge. You used active listening, a ministry of presence, and creative, non-judgemental thinking to engage each of these people and hopefully put them on a path towards meaning-making for themselves. </p><p>Take a moment to download your responses to the questions you answered along the way. You can print them for future review or to show to your instructor if you are using this lesson in a class.</p>`
+            `<p>You finished this lesson! In this lesson, you encountered three non-religious people who were struggling with a big challenge. You used active listening, a ministry of presence, and creative, non-judgemental thinking to engage each of these people and hopefully put them on a path towards meaning-making for themselves. </p>`
           ],
           title: "Lesson complete",
           videos: [],
