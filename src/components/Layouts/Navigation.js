@@ -75,7 +75,7 @@ const Navigation = (props) => {
 
   return (
     <div className="buttons-container space-atop flex-box flex-end">
-      {props.activeScene.scene_number > 2 && (
+      {props.activeScene.scene_number > 2 && props.activeScene.scene_number !== "19" && (
         <button className="button" onClick={() => getPreviousScene()}>
           &larr;&nbsp;Previous
         </button>

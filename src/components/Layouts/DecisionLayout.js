@@ -12,7 +12,7 @@ const DecisionLayout = (props) => {
   const [decisionData] = useState(abeDecisionData)
   const [index,updateIndex] = useState(1);
   const [decisionEnded, endDecision] = useState(false)
-
+  const [showAdvance, setAdvance] = useState(false)
 
   useEffect(() => {
     
@@ -21,12 +21,12 @@ const DecisionLayout = (props) => {
  
 
   function advance() {
+    setAdvance(false)
     // if we have data, add it here.
     // we need to get the object back, so search for it here.
     for (let i = 0; i < selected.length; i++) {
       let condition = selected[i].conditions;
       let nextIndex = (parseInt(index) + 1).toString();
-      console.log("condition type = " + condition.type);
       updateFeedback([])
       // if we have no conditions, just add to the index and move our data to redux
       if (condition.type !== "end") {
@@ -36,6 +36,7 @@ const DecisionLayout = (props) => {
         startDecision(false)
         endDecision(true)
         updateIndex(1)
+        updateSelected([])
         }
       }
     }
@@ -54,6 +55,7 @@ const DecisionLayout = (props) => {
       },
     ];
     updateSelected(selected)
+    setAdvance(true)
     updateFeedback(feedbackDisplay)
    
   };
@@ -120,6 +122,9 @@ const DecisionLayout = (props) => {
               className={`none`}
               text={decisionData[index].question}
             />
+             <div className="padding-sm">
+             <p>Select the option below that you think is best:</p>
+            </div>
             <div className="decision-area flex-box">
               {decisionData[index].options.map((option, i) => {
                 return (
@@ -172,7 +177,7 @@ const DecisionLayout = (props) => {
                 })}
               </div>
             </div>
-            {selected.length !== 0 && (
+            {selected.length !== 0 && showAdvance && (
               <div className="flex-box flex-end">
                 {" "}
                 <button

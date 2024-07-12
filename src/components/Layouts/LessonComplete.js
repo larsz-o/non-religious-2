@@ -87,14 +87,14 @@ const LessonComplete = (props) => {
               )}
           </div>
           <div className="flex-box flex-center cil-header">
-            <div className="flex-box flex-column column-lg-6 column-sm-12 column-md-12">
-              <div className="flex-box">
+            <div className="flex-box flex-column column-lg-12 column-sm-12 column-md-12">
+              <div className="flex-box flex-center">
                 <img
                   src="https://chaplaincy-innovation-lab-lessons.s3.amazonaws.com/typing.png"
                   alt="lesson complete"
                   className="resources-gif"
                 />
-                <div className="flex-box flex-column col-lg-3 col-sm-12 text-spotlight text-blue">
+                <div className="flex-box flex-column column-lg-5 column-sm-12 text-spotlight">
                   <h4>Stay engaged!</h4>
                   <p>
                     Now that you’ve completed this case study, here are a few
@@ -108,7 +108,7 @@ const LessonComplete = (props) => {
                 {cilResources.map((resource, i) => {
                   return (
                     <div
-                      className="cil-resource col-sm-12 col-lg-3 col-md-6"
+                      className="cil-resource column-md-6 column-lg-4"
                       key={i}
                     >
                       <img

@@ -113,7 +113,7 @@ const lessonData = {
           sidebarVideos: [],
           sidebarText: [],
           text: [
-            `<p>You will likely have a difficult time working with non-religious (or even religious!) people if you:</p><ul><li>Try to convince someone to become religious when they are not.</li><li>Dismiss non-religious people altogether in your chaplaincy.</li><li>Avoid discussing important issues and aiding in meaning-making.</li><li>Get caught up in philosophical debates about religion or spirituality.</li></ul><p>Your goal as a chaplain is to help people make sense of their situations, meeting them where they are at in the moment. Attempting to convert someone to your religion or debating the tenets of a non-religious person’s beliefs derail you from this goal.</p><p>It's also important that you do attempt to meet with non-religious people and when you do, you go beyond having a social visit. You should attempt to help religious and non-religious people seek meaning through their situations - regardless of their spiritual beliefs.</p>`,
+            `<p>You will likely have a difficult time working with non-religious people if you:</p><ul><li>Try to convince someone to become religious when they are not.</li><li>Dismiss non-religious people altogether in your chaplaincy.</li><li>Avoid discussing important issues and aiding in meaning-making.</li><li>Get caught up in philosophical debates about religion or spirituality.</li></ul><p>Your goal as a chaplain is to help people make sense of their situations, meeting them where they are at in the moment. Attempting to convert someone to your religion or debating the tenets of a non-religious person’s beliefs derail you from this goal.</p><p>It's also important that you do attempt to meet with non-religious people and when you do, you go beyond having a social visit. You should attempt to help religious and non-religious people seek meaning through their situations - regardless of their spiritual beliefs, or indifference.</p>`,
           ],
           title: "Non-effective ways of working with non-religious people",
           videos: [],
@@ -208,7 +208,7 @@ const lessonData = {
           sidebarVideos: [],
           sidebarText: [],
           text: [
-            `<p>In this scenario, you will meet James. James is a 17 year-old black, non-binary, high school junior who attends a Baptist private high school.</p><p>At each decision point, determine what you will do to best serve Abe in your role as a chaplain.</p>`,
+            `<p>In this scenario, you will meet James. James is a 17 year-old black, non-binary, high school junior who attends a private high school.</p><p>At each decision point, determine what you will do to best serve Abe in your role as a chaplain.</p>`,
           ],
           title: "Meet James",
           videos: [],
@@ -304,7 +304,7 @@ const lessonData = {
           checkpoints: [],
           images: [],
           layoutNumber: 6,
-          navigation: [],
+          navigation: [{available_scene: "19", current_scene: "19", previous_scene: "10",text: "End Lesson" }],
           scene_number: "19",
           sidebar: false,
           sidebarImages: [],

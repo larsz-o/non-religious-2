@@ -185,7 +185,7 @@ button {
   height: 400px;
 }
 .cil-header {
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 .cil-resource {
   margin: 2em;
@@ -446,7 +446,7 @@ li > img {
   padding: 1em;
 
   border-radius: 10px;
-  margin: 1em;
+
 }
 .multiple-choice-button {
   background-color: transparent;
@@ -473,6 +473,11 @@ li > img {
 .read-more > h3 {
   color: #282c34;
 }
+.padding-sm {
+  padding: .75em;
+  font-style: italic
+}
+
 ::selection {
   background-color: black;
   color: white;
@@ -572,6 +577,7 @@ tbody {
   padding: 1rem;
   border-radius: 10px;
 }
+
 .text-shadow {
   border: 2px solid #6dd3ce;
   box-shadow: 6px 8px #6dd3ce;
