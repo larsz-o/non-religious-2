@@ -61,7 +61,7 @@ const jamesDecisionData = (
 
       options: [ 
          
-          {text: `You can stop by any time between now and then if you are having a hard day or just want to say hi.`, conditions: {type: "end", command: "SET_ACTIVE_SCENE", index: null}, feedback: ``}
+          {text: `"You can stop by any time between now and then if you are having a hard day or just want to say hi."`, conditions: {type: "end", command: "SET_ACTIVE_SCENE", index: null}, feedback: `Good choice - let James know that they can always come by to talk.`},   {text: `"Good luck."`, conditions: {type: "end", command: "SET_ACTIVE_SCENE", index: null}, feedback: `This isn't a great choice. Keep the conversation with James going by inviting them to visit you at a later date.`},
          
       ], 
       multipleSelect: false

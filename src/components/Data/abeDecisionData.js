@@ -37,7 +37,7 @@ const abeDecisionData = (
         `,
         options: [ 
            
-            {text: `You make a plan to stop by again after the first Caring Partners group meeting.`, conditions: {type: "end", command: "SET_ACTIVE_SCENE", index: null}, feedback: ``},
+            {text: `You make a plan to stop by again after the first Caring Partners group meeting.`, conditions: {type: "end", command: "SET_ACTIVE_SCENE", index: null}, feedback: `Great choice - following up with Abe will help him to know that you are still available to him.`},{text: `You set Abe up with meeting and then let him be.`, conditions: {type: "end", command: "SET_ACTIVE_SCENE", index: null}, feedback: `This is an okay choice, but consider staying connected with Abe by checking in with him at a later date.`}
            
         ], 
         multipleSelect: false

@@ -41,7 +41,7 @@ const luzDecisionData = (
         question: `<strong>You say, "I'm not going to make you pray. Tell me, what do you want to say to your boss?"</strong><br/><p>Luz says that she needs to admit to her boss that her back pain is severe and she wants to see if she can temporarily work another job in the warehouse. You talk through different ways the conversation might go and help her feel equipped to handle a few different scenarios.</p><p>You end the conversation by wishing her luck on her conversation with her boss.</p>`,
         options: [ 
            
-            {text: `"I walk this same route every Monday night, so I'll look for you next week to see how your conversation went."`, conditions: {type: "end", command: "SET_ACTIVE_SCENE", index: null}, feedback:``} 
+            {text: `"I walk this same route every Monday night, so I'll look for you next week to see how your conversation went."`, conditions: {type: "end", command: "SET_ACTIVE_SCENE", index: null}, feedback:`Good choice - telling Luz when you will be around next lets her know that she can expect you and keeps the door open for further connection.`},  {text: `"If you want to find me this Sunday, I'll be at the church up the road."`, conditions: {type: "end", command: "SET_ACTIVE_SCENE", index: null}, feedback:`Bad choice. Meet Luz where she is at and encourage connection in a way that will work for her.`}, 
         ], 
         multipleSelect: false
     }, 

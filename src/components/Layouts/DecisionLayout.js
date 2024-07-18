@@ -78,6 +78,12 @@ const DecisionLayout = (props) => {
 
   return (
     <div className="layout-page">
+      <div className="flex-box flex-end">
+ 
+      <audio controls autoPlay src="https://chaplaincy-innovation-lab-lessons.s3.amazonaws.com/nonreligious/492767__h0ugh__ambience-house-with-tv.wav">
+      </audio>
+      </div>
+     
       <div className="flex-box flex-center">
         <div className="column-lg-10 column-md-12 column-sm-12">
           {props.activeScene.title !== null && (

@@ -92,7 +92,7 @@ const lessonData = {
           sidebarVideos: [],
           sidebarText: [],
           text: [
-            `<p>While some non-religious people may be curious about speaking with a chaplain, others may be more resistant. You may have to take creative approaches to engage them, depending on their relationship to spirituality and religion.</p><ul><li><strong>Explain your role as a member of a care team.</strong> A non-religious person may associate a chaplain with a clergy member, or think that you are trying to convert them to your religion.<ul><li>Start the conversation by asking questions about what support the person needs and what support they’re currently receiving. You can directly ask a non-religious person what they think when they hear the word “chaplain” and help to demystify their perception of you, too! Emphasize that you are available as a member of their care or support team who is focused on helping them through challenging times.</li></ul></li><li><strong>Be present and practice active listening.</strong> When you practice active listening, you pay attention to another person’s words, body language, and feelings, without trying to push your own agenda onto the conversation.<ul><li>A non-religious person may be explicit about their concerns about religion or spirituality - stating their complete disinterest in working with you - or they may be more implicit, communicating hesitations through words, movement, and tone. Pay attention to what a person is saying and how they are saying it to meet them where they are at in the moment.</li></ul></li><li><strong>Practice non-judgemental thinking and openness.</strong> You may feel yourself reacting to a non-religious person’s dismissal of spirituality or religion. It may feel like a personal attack on you and your deeply held beliefs.<ul><li>Try to see the situation from the non-religious person’s perspective and imagine what it would feel like to hold <i>their</i> beliefs. Ask open-ended questions. Show interest in their situation.</li></ul></li></ul>`,
+            `<p>While some non-religious people may be curious about speaking with a chaplain, others may be more resistant. You may have to take creative approaches to engage them.</p><ul><li><strong>Explain your role as a member of a care team.</strong> A non-religious person may associate a chaplain with a clergy member, or think that you are trying to convert them to your religion.<ul><li>Start the conversation by asking questions about what support the person needs and what support they’re currently receiving. Ask a non-religious person what they think when they hear the word “chaplain” and help to demystify their perception of you, too! Emphasize that you are available as a member of their care or support team who is focused on helping them through challenging times.</li></ul></li><li><strong>Be present and practice active listening.</strong> When you practice active listening, you pay attention to another person’s words, body language, and feelings, without trying to push your own agenda onto the conversation.<ul><li>A non-religious person may be explicit about their concerns about religion or spirituality - stating their complete disinterest in working with you - or they may be more implicit, communicating hesitations through words, movement, and tone. Pay attention to what a person is saying and how they are saying it to meet them where they are at in the moment.</li></ul></li><li><strong>Practice non-judgemental thinking and openness.</strong> You may feel yourself reacting to a non-religious person’s dismissal of spirituality or religion. It may feel like a personal attack on you and your deeply held perspectives.<ul><li>Try to see the situation from the non-religious person’s perspective and imagine what it would feel like to hold <i>their</i> perspectives. Ask open-ended questions. Show interest in their situation.</li></ul></li></ul>`,
           ],
           title: "Effective ways of working with non-religious people",
           videos: [],
@@ -113,7 +113,7 @@ const lessonData = {
           sidebarVideos: [],
           sidebarText: [],
           text: [
-            `<p>You will likely have a difficult time working with non-religious people if you:</p><ul><li>Try to convince someone to become religious when they are not.</li><li>Dismiss non-religious people altogether in your chaplaincy.</li><li>Avoid discussing important issues and aiding in meaning-making.</li><li>Get caught up in philosophical debates about religion or spirituality.</li></ul><p>Your goal as a chaplain is to help people make sense of their situations, meeting them where they are at in the moment. Attempting to convert someone to your religion or debating the tenets of a non-religious person’s beliefs derail you from this goal.</p><p>It's also important that you do attempt to meet with non-religious people and when you do, you go beyond having a social visit. You should attempt to help religious and non-religious people seek meaning through their situations - regardless of their spiritual beliefs, or indifference.</p>`,
+            `<p>You will likely have a difficult time working with non-religious people if you:</p><ul><li>Try to convince someone to become religious when they are not.</li><li>Dismiss non-religious people altogether in your chaplaincy.</li><li>Avoid discussing important issues and aiding in meaning-making.</li><li>Get caught up in philosophical debates about religion or spirituality.</li></ul><p>Your goal as a chaplain is to help people make sense of their situations, meeting them where they are at in the moment. Attempting to convert someone to your religion or debating the tenets of a non-religious person’s perspectives derail you from this goal.</p><p>It's also important that you do attempt to meet with non-religious people and when you do, you go beyond having a social visit. You should attempt to help religious and non-religious people seek meaning through their situations - regardless of their spiritual perspectives, or indifference.</p>`,
           ],
           title: "Non-effective ways of working with non-religious people",
           videos: [],
@@ -191,7 +191,7 @@ const lessonData = {
           ],
           title: "Meet Abe",
           videos: [],
-          audio: [],
+          audio: [`https://chaplaincy-innovation-lab-lessons.s3.amazonaws.com/nonreligious/492767__h0ugh__ambience-house-with-tv.wav`],
         },
         8: {
           checkpoint: false,
@@ -243,7 +243,7 @@ const lessonData = {
           ],
           title: `Meet James`,
           videos: [],
-          audio: [],
+          audio: [`https://chaplaincy-innovation-lab-lessons.s3.amazonaws.com/nonreligious/324992__alexschmidtmeister__high_school_germany_indoor_ambience_before_class.wav`],
         },
         9.1: {
           checkpoint: false,
@@ -295,7 +295,7 @@ const lessonData = {
           ],
           title: `Meet Luz`,
           videos: [],
-          audio: [],
+          audio: [`https://chaplaincy-innovation-lab-lessons.s3.amazonaws.com/nonreligious/203929__floatingpatterns__under-the-dorogomilovsky-bridge-highway.wav`],
         },
       
         19: {
